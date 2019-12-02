@@ -9,7 +9,7 @@ categories: network
 {:toc}
 # OSI & TCP/IP
 
-![cb34e0e3b7769498ea703fe6231201b4](https://static001.geekbang.org/resource/image/cb/b4/cb34e0e3b7769498ea703fe6231201b4.png)
+![OSI与TCP/IP对照][OSI与TCP/IP对照]
 
 
 
@@ -25,7 +25,7 @@ categories: network
 
 - 网络分类：
 
-  ![img](https://static001.geekbang.org/resource/image/80/ef/8062576bcd515e1c84cec960e4796fef.png)
+  ![网络分类][网络分类]
 
 
 
@@ -50,3 +50,9 @@ categories: network
   1. 网络编程需要牢牢树立起“客户端 ”和“服务器”模型，两者编程的方法和框架是明显不同的。
   2. TCP连接是客户端 - 服务器的IP和端口四元组唯一确定的，IP是一台机器在网络世界的唯一标识。
   3. 有两种截然不同的传输层协议，面向连接的“数据流”协议TCP，以及无连接的“数据报”协议UDP。
+
+
+
+
+
+[OSI与TCP/IP对照]:{{"/network/OSI.png" | prepend: site.imgrepo }}
