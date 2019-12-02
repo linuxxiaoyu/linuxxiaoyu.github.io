@@ -9,7 +9,7 @@ categories: network
 {:toc}
 # OSI & TCP/IP
 
-![OSI与TCP/IP对照][OSI与TCP/IP对照]
+![OSI][OSI]
 
 
 
@@ -55,5 +55,5 @@ categories: network
 
 
 
-[OSI与TCP/IP对照]:{{"/network/OSI.png" | prepend: site.imgrepo }}
-[网络分类]:{{"/network/networkABC.png" | prepend: site.imgrepo }}
+[OSI]: {{"/network/OSI.png" | prepend: site.imgrepo }}
+[网络分类]: {{"/network/networkABC.png" | prepend: site.imgrepo }}
