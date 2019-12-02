@@ -1,0 +1,48 @@
+plugins: [jekyll-paginate]
+
+permalink: /:categories/:title/
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input:  GFM
+  syntax_highlighter: rouge
+
+
+paginate: 10
+paginate_path: "page/:num"
+baseurl: ""
+
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      styles : [highlight.css,gitment.css,post.css]
+      scripts : [gitment.js, post.js]
+
+
+
+title: "linuxxiaoyu"
+email: linuxxiaoyu@gmail.com
+description: ""
+github:
+  username: linuxxiaoyu 
+swiftype:
+  searchId: E6VhSszWKcDySpEFywMj
+gitment:
+    repo: linuxxiaoyu.github.io
+    client_id: bf02449d34c20547c62f
+    client_secret: 768bdfc1273c30282d4576856251a9ca99d97a29
+
+url: "https://linuxxiaoyu.github.io"
+imgrepo: "https://linuxxiaoyu.github.io/static/img"
+
+
+#url: "http://127.0.0.1:4000"
+#imgrepo: "http://127.0.0.1:4000/static/img"
+
