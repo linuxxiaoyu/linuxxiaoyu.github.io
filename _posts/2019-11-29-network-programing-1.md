@@ -45,15 +45,20 @@ categories: network
 
   
 
-  # 总结
+# 总结
 
-  1. 网络编程需要牢牢树立起“客户端 ”和“服务器”模型，两者编程的方法和框架是明显不同的。
-  2. TCP连接是客户端 - 服务器的IP和端口四元组唯一确定的，IP是一台机器在网络世界的唯一标识。
-  3. 有两种截然不同的传输层协议，面向连接的“数据流”协议TCP，以及无连接的“数据报”协议UDP。
+1. 网络编程需要牢牢树立起“客户端 ”和“服务器”模型，两者编程的方法和框架是明显不同的。
+2. TCP连接是客户端 - 服务器的IP和端口四元组唯一确定的，IP是一台机器在网络世界的唯一标识。
+3. 有两种截然不同的传输层协议，面向连接的“数据流”协议TCP，以及无连接的“数据报”协议UDP。
 
 
+
+[下一篇][下一篇]
 
 
 
 [OSI]: {{"/network/OSI.png" | prepend: site.imgrepo }}
 [网络分类]: {{"/network/networkABC.png" | prepend: site.imgrepo }}
+
+[下一篇]:https://linuxxiaoyu.github.io/network/network-programing-2/
+
